@@ -17,4 +17,6 @@ console.log(mascota1.presentarse());
 console.log(mascota2.presentarse());
 console.log(mascota3.presentarse());
 
+//¿Por qué un método interno puede acceder de manera precisa y aislada a las propiedades específicas de su propio objeto utlizando la palabra clave this
 
+//RTA: Porque hacemos referencia directamente a la propiedad sin necesidad de modificar el propio nombre de la variable

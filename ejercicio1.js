@@ -12,3 +12,9 @@ const c3 = new Computador("ASUS", "Ryzen 5", 20, 1550000);
 console.log(c1);
 console.log(c2);
 console.log(c3);
+
+// ¿Qué ventaja técnica tiene crear un molde (función constructora) en lugar de escribir un objeto literal 
+// estructurado individualmente para cada computador?
+
+// RTA: Nos permite tener un código más organizado y de fácil entendimiento para la administración y mantenimineto,
+// en grandes volumenes de información nos permite realizar modificaciones en general sin tener que cambiar valor por valor.

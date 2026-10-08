@@ -29,8 +29,8 @@ const libro1 = new Libro(
     "Planeta Colombia"
 );
 
-console.log(libro1.prestar());   // Préstamo realizado.
-console.log(libro1.prestar());   // Alerta: el libro ya está prestado.
-console.log(libro1.devolver()); // Devolución realizada.
-console.log(libro1.devolver()); // Alerta: hay una inconsistencia...
-console.log(libro1.prestar());   // Préstamo realizado.
+console.log(libro1.prestar());   
+console.log(libro1.prestar());   
+console.log(libro1.devolver()); 
+console.log(libro1.devolver()); 
+console.log(libro1.prestar());   
